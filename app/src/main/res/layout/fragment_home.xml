@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="蓝牙未开启"
-            android:textColor="#707070" />
+            android:textColor="#FF0000" />
     </LinearLayout>
 
 

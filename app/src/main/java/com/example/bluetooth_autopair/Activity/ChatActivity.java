@@ -181,6 +181,7 @@ public class ChatActivity extends AppCompatActivity implements View.OnClickListe
         recyclerView.setFocusableInTouchMode(true);
         recyclerView.requestFocus();
         recyclerChatAdapter = new RecyclerChatAdapter(this);
+        recyclerView.setAdapter(new RecyclerChatAdapter(this));
         recyclerChatAdapter.setList(list);
         recyclerView.setAdapter(recyclerChatAdapter);
         et_write = findViewById(R.id.et_write);
